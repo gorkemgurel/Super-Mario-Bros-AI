@@ -1,7 +1,6 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
+# Python virtual environment
+venv/
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -12,8 +11,10 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# ML-Agents training results
+results/
+
 # MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
